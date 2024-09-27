@@ -20,6 +20,7 @@ html,body{
     color: whitesmoke;
     z-index: 999;
     position:fixed;
+    overflow: hidden;
 }
 .line{
     height: fit-content;
@@ -68,4 +69,46 @@ html,body{
     width: 100vw;
     height: 100vh;
     background-color: #151515;
+}
+#page1 #nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 3vw;
+    align-items: center;
+    padding: 2.3vw 6vw;
+}
+#nav-part2{
+    display: flex;
+    justify-content: space-between;
+    gap: 3vw;
+    align-items: center;
+}
+#nav-part2 a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1vw;
+    font-family: "Plain Light";
+}
+.ab{
+    /* background-color: red; */
+    color: whitesmoke;
+    margin-top: 5vw;
+    padding: 2.3vw 30vw;
+}
+.ab h1{
+    font-size: 6vw;
+    font-family: "Plain Light";
+    text-transform: uppercase;
+}
+.brand__svg{
+    color: whitesmoke;
+}
+#cursor{
+    position: fixed;
+    width: 1.5vw;
+    height: 1.5vw;
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+    z-index: 999;
+    mix-blend-mode: difference;
 }
