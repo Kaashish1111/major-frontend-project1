@@ -1,0 +1,71 @@
+@font-face {
+    font-family:"Plain light";
+    src: url("./plain-light-webfont.ttf");
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#load{
+    height: 100%;
+    width:100%;
+    background-color: #0B0B0B;
+    padding: 25vh 10vw;
+    color: whitesmoke;
+    z-index: 999;
+    position:fixed;
+}
+.line{
+    height: fit-content;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+.line h1{
+    text-transform: uppercase;
+    font-size: 6vw;
+    font-family: "Plain Light";
+}
+.line h2{
+    font-size: 5.5vw;
+    font-family: "Plain Light";
+    text-transform: uppercase;
+    animation-name: ani;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ani{
+    0%{
+        font-family: 'Plain  Light';
+    }
+    100%{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+        color: transparent;
+    }
+}
+#line1-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2vw;
+}
+#line1-part1 h5, #line1-part1 h6{
+    font-size: 3vw;
+    font-family: "Plain Light";
+}
+#main{
+    position:relative;
+}
+#page1{
+    width: 100vw;
+    height: 100vh;
+    background-color: #151515;
+}
