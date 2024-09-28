@@ -68,7 +68,7 @@ html, body {
 }
 #main{
     position:relative;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 #page1{
     width: 100vw;
@@ -237,11 +237,38 @@ html, body {
 #blue-div{
     background-color: #3F7DF4;
     color: whitesmoke;
-    padding: 1.5vw 2vw;
-    width: 40vw;
+    padding: 3vw;
+    width: 40%;
+    position: absolute;
+    left: 55%;
+    height: 50%;
 }
 .elem{
     display: flex;
-    align-items: flex-start;
-    
+    gap: 5vw;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 0;
+    border-bottom: 1px solid whitesmoke;
+}
+.elem h4{
+    font-size: 2vw;
+}
+.elem p{
+    font-size: 1vw;
+    align-self: flex-start;
+}
+#page5{
+    width: 100vw;
+    height: 100vh;
+    background-color: #151515;
+    position: relative;
+    padding-top: 10vh;
+}
+#page5>p{
+    border-top: 1px solid whitesmoke;
+    margin-left: 28%;
+    width:65%;
+    padding-top: 3vh;
 }
