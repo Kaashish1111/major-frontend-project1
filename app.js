@@ -37,7 +37,7 @@ tl.from("#nav",{
     opacity:0,
 })
 tl.from(".ab",{
-    y: 200,
+    y:500,
     stagger: 0.2
 })
 
@@ -53,21 +53,3 @@ document.addEventListener("mousemove", function(dets) {
 
 let navLinks = document.querySelectorAll(".nav-link");
 Shery.makeMagnet(".nav-link");
-
-// navLinks.forEach(link => {
-//   link.addEventListener('mousemove', (e) => {
-//     console.log('Mouse move event triggered');
-//     let x = e.offsetX;
-//     let y = e.offsetY;
-//     let linkWidth = e.target.clientWidth;
-//     let linkHeight = e.target.clientHeight;
-//     let moveX = (x - linkWidth / 2);
-//     let moveY = (y - linkHeight / 2);
-//     e.target.style.transform = `translateX(${moveX}px) translateY(${moveY}px)`;
-//   });
-//   link.addEventListener('mouseout', (e) => {
-//     console.log('Mouse out event triggered');
-//     e.target.style.transform = '';
-//   });
-// });
-
